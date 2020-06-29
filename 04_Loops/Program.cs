@@ -8,7 +8,13 @@ namespace _04_Loops
 {
     class Program
     {
-        static void Main(string[] args)
+        public int _Erick = 10;
+
+        public void TestMethod()
+        {
+            _Erick = 100;
+        }
+            static void Main(string[] args)
         {
             //While Loop
             int total = 1;
@@ -85,4 +91,13 @@ namespace _04_Loops
             Console.ReadKey();      
         }
     }
+
+    class TestClass
+    {
+        public int iterator = 45;
+        public void TestMethod(int x)
+        {
+            iterator = 45;
+            string another = "hello";
+        }
 }
